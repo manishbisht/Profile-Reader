@@ -1,0 +1,26 @@
+html,
+body {
+}
+.top{
+  margin-top:40px;
+}
+.head{
+  font-size:50px;
+  }
+@media (min-width: 768px) {
+  .top{
+  margin-top:170px;
+}
+.head{
+  font-size:80px;
+  }
+}
+
+@media (min-width: 992px) {
+  .container{
+  max-width:900px;
+  }
+  .head{
+  font-size:100px;
+  }
+}
